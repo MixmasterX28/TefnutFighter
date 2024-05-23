@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +7,9 @@ public class CombatCac : MonoBehaviour
 {
     [SerializeField] private Transform controladorGolpe;
     [SerializeField] private float radioGolpe;
-    [SerializeField] private float dañoGolpe;
+    [SerializeField] private float punchDamage;
+    [SerializeField] private float TimePunch;
+    [SerializeField] private float TimeNextPunch;
     private Animator animator;
 
     private void Start()
@@ -16,21 +19,26 @@ public class CombatCac : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.V))
+        if (TimeNextPunch > 0)
+        {
+            TimeNextPunch -= Time.deltaTime;
+        }
+        if (Input.GetKeyDown(KeyCode.E) && TimeNextPunch <= 0)
         {
             Golpe();
+            TimeNextPunch = TimePunch;
         }
     }
     private void Golpe()
     {
-        animator.SetTrigger("Golpe");
+        animator.SetTrigger("Punch");
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
         foreach (Collider2D colisionador in objetos)
         {
             if (colisionador.CompareTag("Enemigo"))
             {
-                colisionador.transform.GetComponent<Enemigo>().TakeDamage(dañoGolpe);
+                colisionador.transform.GetComponent<Enemigo>().TakeDamage(punchDamage);
             }
         }
     }
