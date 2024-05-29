@@ -36,6 +36,7 @@ public class CombatCac : MonoBehaviour
 
         foreach (Collider2D colisionador in objetos)
         {
+            Debug.Log("AAA" + colisionador.tag);
             if (colisionador.CompareTag("Enemigo"))
             {
                 colisionador.transform.GetComponent<Enemigo>().TakeDamage(punchDamage);

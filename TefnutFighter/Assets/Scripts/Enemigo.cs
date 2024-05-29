@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    [SerializeField] private float health;
+    [SerializeField] public float health;
     private Animator animator;
 
     private void Start()
