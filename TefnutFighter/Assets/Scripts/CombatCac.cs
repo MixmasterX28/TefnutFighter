@@ -28,6 +28,11 @@ public class CombatCac : MonoBehaviour
             Golpe();
             TimeNextPunch = TimePunch;
         }
+        if (Input.GetKeyDown(KeyCode.R) && TimeNextPunch <= 0)
+        {
+            GolpeHeavy();
+            TimeNextPunch = TimePunch;
+        }
     }
     private void Golpe()
     {
@@ -36,14 +41,25 @@ public class CombatCac : MonoBehaviour
 
         foreach (Collider2D colisionador in objetos)
         {
-            Debug.Log("AAA" + colisionador.tag);
             if (colisionador.CompareTag("Enemigo"))
             {
                 colisionador.transform.GetComponent<Enemigo>().TakeDamage(punchDamage);
             }
         }
     }
+    private void GolpeHeavy()
+    {
+        animator.SetTrigger("HeavyPunch");
+        Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
+        foreach (Collider2D colisionador in objetos)
+        {
+            if (colisionador.CompareTag("Enemigo"))
+            {
+                colisionador.transform.GetComponent<Enemigo>().TakeDamage(punchDamage);
+            }
+        }
+    }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

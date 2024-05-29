@@ -12,14 +12,12 @@ namespace TarodevController
         private FrameInput _frameInput;
         private Vector2 _frameVelocity;
         private bool _cachedQueryStartInColliders;
-        private bool lokingRight = true;
+        private bool _lookingRight = true;
 
         #region Interface
-
         public Vector2 FrameInput => _frameInput.Move;
         public event Action<bool, float> GroundedChanged;
         public event Action Jumped;
-
         #endregion
 
         private float _time;
@@ -28,7 +26,6 @@ namespace TarodevController
         {
             _rb = GetComponent<Rigidbody2D>();
             _col = GetComponent<CapsuleCollider2D>();
-
             _cachedQueryStartInColliders = Physics2D.queriesStartInColliders;
         }
 
@@ -63,16 +60,13 @@ namespace TarodevController
         private void FixedUpdate()
         {
             CheckCollisions();
-
             HandleJump();
             HandleDirection();
             HandleGravity();
-            
             ApplyMovement();
         }
 
         #region Collisions
-        
         private float _frameLeftGrounded = float.MinValue;
         private bool _grounded;
 
@@ -106,12 +100,9 @@ namespace TarodevController
 
             Physics2D.queriesStartInColliders = _cachedQueryStartInColliders;
         }
-
         #endregion
 
-
         #region Jumping
-
         private bool _jumpToConsume;
         private bool _bufferedJumpUsable;
         private bool _endedJumpEarly;
@@ -124,11 +115,8 @@ namespace TarodevController
         private void HandleJump()
         {
             if (!_endedJumpEarly && !_grounded && !_frameInput.JumpHeld && _rb.velocity.y > 0) _endedJumpEarly = true;
-
             if (!_jumpToConsume && !HasBufferedJump) return;
-
             if (_grounded || CanUseCoyote) ExecuteJump();
-
             _jumpToConsume = false;
         }
 
@@ -141,11 +129,9 @@ namespace TarodevController
             _frameVelocity.y = _stats.JumpPower;
             Jumped?.Invoke();
         }
-
         #endregion
 
         #region Horizontal
-
         private void HandleDirection()
         {
             if (_frameInput.Move.x == 0)
@@ -157,12 +143,28 @@ namespace TarodevController
             {
                 _frameVelocity.x = Mathf.MoveTowards(_frameVelocity.x, _frameInput.Move.x * _stats.MaxSpeed, _stats.Acceleration * Time.fixedDeltaTime);
             }
+
+            // Handle player rotation
+            if (_frameInput.Move.x < 0 && !_lookingRight)
+            {
+                Flip();
+            }
+            else if (_frameInput.Move.x > 0 && _lookingRight)
+            {
+                Flip();
+            }
         }
 
+        private void Flip()
+        {
+            _lookingRight = !_lookingRight;
+            Vector3 scale = transform.localScale;
+            scale.x = _lookingRight ? Mathf.Abs(scale.x) : -Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
         #endregion
 
         #region Gravity
-
         private void HandleGravity()
         {
             if (_grounded && _frameVelocity.y <= 0f)
@@ -176,7 +178,6 @@ namespace TarodevController
                 _frameVelocity.y = Mathf.MoveTowards(_frameVelocity.y, -_stats.MaxFallSpeed, inAirGravity * Time.fixedDeltaTime);
             }
         }
-
         #endregion
 
         private void ApplyMovement() => _rb.velocity = _frameVelocity;
@@ -186,26 +187,8 @@ namespace TarodevController
         {
             if (_stats == null) Debug.LogWarning("Please assign a ScriptableStats asset to the Player Controller's Stats slot", this);
         }
-
-        private void move(float Move)
-        {
-            if(Move > 0 && !lokingRight)
-            {
-                Draai();
-            }
-            else if (Move < 0 && lokingRight)
-            {
-                Draai();
-            }
-        }
-        private void Draai()
-        {
-            lokingRight = !lokingRight;
-
-        }
 #endif
     }
-
 
     public struct FrameInput
     {
@@ -217,7 +200,6 @@ namespace TarodevController
     public interface IPlayerController
     {
         public event Action<bool, float> GroundedChanged;
-
         public event Action Jumped;
         public Vector2 FrameInput { get; }
     }
