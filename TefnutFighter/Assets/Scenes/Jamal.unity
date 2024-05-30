@@ -189,7 +189,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -598,8 +598,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 11400000, guid: e4bd1e98ccc6f7746a556ff324d0dea1, type: 2}
-  maxSpeed: 18.8
-  maxAcceleration: 59
+  maxSpeed: 20
+  maxAcceleration: 90
   maxAirAcceleration: 20
 --- !u!68 &1127692948
 EdgeCollider2D:
@@ -655,10 +655,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 11400000, guid: e4bd1e98ccc6f7746a556ff324d0dea1, type: 2}
-  jumpHeight: 3
+  jumpHeight: 20
   maxAirJump: 1
-  downwardMovementMultiplier: 3.5
-  upwardMovementMultiplier: 2.79
+  downwardMovementMultiplier: 5
+  upwardMovementMultiplier: 5
 --- !u!1 &1444336567
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,7 +686,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1444336567}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: fef4d29d690168c4e99f3b39dde3070e, type: 2}
+  m_Material: {fileID: 6200000, guid: 1e500411ec232e948890d9c16f65c6ef, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -784,7 +784,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: -3.64, z: 0}
-  m_LocalScale: {x: 21.85, y: 1, z: 1}
+  m_LocalScale: {x: 40, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

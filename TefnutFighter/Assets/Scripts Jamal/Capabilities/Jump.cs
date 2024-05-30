@@ -5,7 +5,7 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     [SerializeField] private InputControler input = null;
-    [SerializeField, Range(0f, 10f)] private float jumpHeight = 3f;
+    [SerializeField, Range(0f, 50f)] private float jumpHeight = 4f;
     [SerializeField, Range(0, 5)] private int maxAirJump = 0;
     [SerializeField, Range(0f, 5f)] private float downwardMovementMultiplier = 3f;
     [SerializeField, Range(0f, 5f)] private float upwardMovementMultiplier = 1.7f;
