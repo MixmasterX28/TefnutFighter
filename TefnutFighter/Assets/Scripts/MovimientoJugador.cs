@@ -11,7 +11,7 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private float velocidadDeMovimiento;
     [Range(0, 0.3f)][SerializeField] private float suavizadoDeMovimiento;
     private Vector3 velocidad = Vector3.zero;
-    private bool mirandoDerecha = true;
+    private bool lokingRight = true;
 
     [Header("Salto")]
     [SerializeField] private float fuerzaDeSalto;
@@ -51,13 +51,13 @@ public class MovimientoJugador : MonoBehaviour
         Vector3 velocidadObjetivo = new Vector2(mover, rb2D.velocity.y);
         rb2D.velocity = Vector3.SmoothDamp(rb2D.velocity, velocidadObjetivo, ref velocidad, suavizadoDeMovimiento);
 
-        if (mover > 0 && !mirandoDerecha)
+        if (mover > 0 && !lokingRight)
         {
-            Girar();
+            Draai();
         }
-        else if (mover < 0 && mirandoDerecha)
+        else if (mover < 0 && lokingRight)
         {
-            Girar();
+            Draai();
         }
 
         if (enSuelo && saltar)
@@ -67,9 +67,9 @@ public class MovimientoJugador : MonoBehaviour
         }
     }
 
-    private void Girar()
+    private void Draai()
     {
-        mirandoDerecha = !mirandoDerecha;
+        lokingRight = !lokingRight;
         Vector3 escala = transform.localScale;
         escala.x *= -1;
         transform.localScale = escala;
