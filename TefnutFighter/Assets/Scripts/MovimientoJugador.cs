@@ -81,3 +81,4 @@ public class MovimientoJugador : MonoBehaviour
         Gizmos.DrawWireCube(controladorSuelo.position, dimensionesCaja);
     }
 }
+
