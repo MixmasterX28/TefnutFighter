@@ -20,6 +20,8 @@ namespace TarodevController
         private Vector2 _frameVelocity;
         private bool _cachedQueryStartInColliders;
 
+        private float Airjump = 2;
+
         #region Interface
 
         public Vector2 FrameInput => _frameInput.Move;
@@ -42,6 +44,12 @@ namespace TarodevController
         {
             _time += Time.deltaTime;
             GatherInput();
+
+            if (_grounded = true)
+            {
+                Airjump = 2;
+
+            }
         }
 
         private void GatherInput()
@@ -133,7 +141,7 @@ namespace TarodevController
 
             if (!_jumpToConsume && !HasBufferedJump) return;
 
-            if (_grounded || CanUseCoyote) ExecuteJump();
+            if ((_grounded && Airjump > 0 )|| (CanUseCoyote && Airjump > 0)) ExecuteJump();
 
             _jumpToConsume = false;
         }
