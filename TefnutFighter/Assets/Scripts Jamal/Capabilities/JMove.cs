@@ -18,30 +18,19 @@ public class JMove : MonoBehaviour
     private float maxSpeedChange;
     private float acceleration;
     private bool onGround;
-<<<<<<< Updated upstream
-    private bool facingRight = true; // Variable para controlar la dirección del personaje
-=======
->>>>>>> Stashed changes
+    private bool facingRight = true;
 
-    // Start is called before the first frame update
     void Awake()
     {
-<<<<<<< Updated upstream
         body = GetComponent<Rigidbody2D>();
-=======
-       body = GetComponent<Rigidbody2D>();
->>>>>>> Stashed changes
         ground = GetComponent<Ground>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         direction.x = input.RetrieveMoveInput();
         desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(maxSpeed - ground.Getfriction(), 0);
 
-<<<<<<< Updated upstream
-        // Girar el personaje según la dirección de movimiento
         if (direction.x > 0 && !facingRight)
         {
             Flip();
@@ -50,9 +39,6 @@ public class JMove : MonoBehaviour
         {
             Flip();
         }
-=======
-
->>>>>>> Stashed changes
     }
 
     private void FixedUpdate()
@@ -66,16 +52,12 @@ public class JMove : MonoBehaviour
 
         body.velocity = velocity;
     }
-<<<<<<< Updated upstream
 
     private void Flip()
     {
-        // Cambiar la dirección del personaje
         facingRight = !facingRight;
         Vector3 scale = transform.localScale;
-        scale.x *= -1; // Invertir la escala en el eje X
+        scale.x *= -1;
         transform.localScale = scale;
     }
-=======
->>>>>>> Stashed changes
 }

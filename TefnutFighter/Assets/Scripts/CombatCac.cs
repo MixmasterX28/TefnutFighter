@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +9,8 @@ public class CombatCac : MonoBehaviour
     [SerializeField] private float punchDamage;
     [SerializeField] private float TimePunch;
     [SerializeField] private float TimeNextPunch;
+    [SerializeField] private KeyCode punchKey = KeyCode.E; // Ajusta las teclas para cada jugador
+    [SerializeField] private KeyCode heavyPunchKey = KeyCode.R; // Ajusta las teclas para cada jugador
     private Animator animator;
 
     private void Start()
@@ -23,17 +24,18 @@ public class CombatCac : MonoBehaviour
         {
             TimeNextPunch -= Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.E) && TimeNextPunch <= 0)
+        if (Input.GetKeyDown(punchKey) && TimeNextPunch <= 0)
         {
             Golpe();
             TimeNextPunch = TimePunch;
         }
-        if (Input.GetKeyDown(KeyCode.R) && TimeNextPunch <= 0)
+        if (Input.GetKeyDown(heavyPunchKey) && TimeNextPunch <= 0)
         {
             GolpeHeavy();
             TimeNextPunch = TimePunch;
         }
     }
+
     private void Golpe()
     {
         animator.SetTrigger("Punch");
@@ -41,12 +43,13 @@ public class CombatCac : MonoBehaviour
 
         foreach (Collider2D colisionador in objetos)
         {
-            if (colisionador.CompareTag("Enemigo"))
+            if (colisionador.CompareTag("Player"))
             {
-                colisionador.transform.GetComponent<Enemigo>().TakeDamage(punchDamage);
+                colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage); // Asegúrate de que tus jugadores tengan el componente PlayerHealth
             }
         }
     }
+
     private void GolpeHeavy()
     {
         animator.SetTrigger("HeavyPunch");
@@ -54,17 +57,16 @@ public class CombatCac : MonoBehaviour
 
         foreach (Collider2D colisionador in objetos)
         {
-            if (colisionador.CompareTag("Enemigo"))
+            if (colisionador.CompareTag("Player"))
             {
-                colisionador.transform.GetComponent<Enemigo>().TakeDamage(punchDamage);
+                colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage); // Asegúrate de que tus jugadores tengan el componente PlayerHealth
             }
         }
     }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(controladorGolpe.position, radioGolpe);
     }
-
-
 }

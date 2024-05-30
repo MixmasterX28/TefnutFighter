@@ -6,7 +6,7 @@ public class Jump : MonoBehaviour
 {
     [SerializeField] private InputControler input = null;
     [SerializeField, Range(0f, 50f)] private float jumpHeight = 4f;
-    [SerializeField, Range(0, 5)] private int maxAirJump = 0;
+    [SerializeField, Range(0, 5)] private int maxAirJump = 1;
     [SerializeField, Range(0f, 5f)] private float downwardMovementMultiplier = 3f;
     [SerializeField, Range(0f, 5f)] private float upwardMovementMultiplier = 1.7f;
 
@@ -20,22 +20,17 @@ public class Jump : MonoBehaviour
     private bool desiredJump;
     private bool onGround;
 
-
-    // Start is called before the first frame update
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         ground = GetComponent<Ground>();
 
         defaultGravityScale = 1f;
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         desiredJump |= input.RetrieveJumpInput();
-
     }
 
     private void FixedUpdate()
@@ -43,7 +38,7 @@ public class Jump : MonoBehaviour
         onGround = ground.GetOnGround();
         velocity = body.velocity;
 
-        if (onGround )
+        if (onGround)
         {
             jumpPhase = 0;
         }
@@ -57,16 +52,12 @@ public class Jump : MonoBehaviour
         if (body.velocity.y > 0)
         {
             body.gravityScale = upwardMovementMultiplier;
-
         }
-
         else if (body.velocity.y < 0)
         {
             body.gravityScale = downwardMovementMultiplier;
-
         }
-
-        else if(body.velocity.y == 0)
+        else
         {
             body.gravityScale = defaultGravityScale;
         }
@@ -76,7 +67,7 @@ public class Jump : MonoBehaviour
 
     private void JumpAction()
     {
-        if (onGround || jumpPhase < maxAirJump) 
+        if (onGround || jumpPhase < maxAirJump)
         {
             jumpPhase += 1;
             float jumpSpeed = Mathf.Sqrt(-2 * Physics2D.gravity.y * jumpHeight);

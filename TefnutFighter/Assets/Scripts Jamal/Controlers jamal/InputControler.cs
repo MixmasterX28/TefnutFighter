@@ -6,5 +6,4 @@ public abstract class InputControler : ScriptableObject
 {
     public abstract float RetrieveMoveInput();
     public abstract bool RetrieveJumpInput();
-
 }
