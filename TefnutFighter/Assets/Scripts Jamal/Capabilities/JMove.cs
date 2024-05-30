@@ -29,6 +29,21 @@ public class JMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        direction.x = input.RetrieveMoveInput();
+        desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(maxSpeed - ground.Getfriction(), 0);
+
+
+    }
+
+    private void FixedUpdate()
+    {
+        onGround = ground.GetOnGround();
+        velocity = body.velocity;
+
+        acceleration = onGround ? maxAcceleration : maxAirAcceleration;
+        maxSpeedChange = acceleration * Time.deltaTime;
+        velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
+
+        body.velocity = velocity;
     }
 }
