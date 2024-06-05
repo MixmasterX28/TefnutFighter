@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
 guid: 68f2c37af31c9ef4493069d18dee1c0c
+========
+guid: 077bccd3254863944bc269b35f3a3767
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +109,15 @@ ScriptedImporter:
       y: 1531
       width: 117
       height: 34
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: c0603b3096dd9154c8d947a2b6259054
+========
+<<<<<<< Updated upstream
+    spriteID: 316032c28c0de6647a7c641e842b8a9a
+=======
+    spriteID: f7dc721ea3594e14caf3a91731ae692c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -126,7 +138,15 @@ ScriptedImporter:
       y: 1579
       width: 263
       height: 354
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: b639d454c48995e4e867f3be0eecd23a
+========
+<<<<<<< Updated upstream
+    spriteID: 5cabc2f7d32c5d0489cf2207ad103d16
+=======
+    spriteID: f76a1982043e0ac4ebbf1dae5cef4a3c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,7 +167,15 @@ ScriptedImporter:
       y: 642
       width: 209
       height: 195
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d8cc00e187001c64d9ec29405b23fe98
+========
+<<<<<<< Updated upstream
+    spriteID: 2f17ca992dbca41488e21fd29f38c862
+=======
+    spriteID: 7d79866523c469d4693a4c2e67e83c6b
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -168,7 +196,15 @@ ScriptedImporter:
       y: 1579
       width: 205
       height: 369
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d7e8bc00f72e38d4b98761673382c639
+========
+<<<<<<< Updated upstream
+    spriteID: 94e891cb8d0d9b042aca6c0f80ac5480
+=======
+    spriteID: 1d28058c8273b1e42962467377707682
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -185,11 +221,23 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
       x: 1571
       y: 1579
       width: 117
       height: 155
     spriteID: eda9c33279eb01548adc68b0efa472ea
+========
+      x: 868
+      y: 1941
+      width: 96
+      height: 92
+<<<<<<< Updated upstream
+    spriteID: 22c58058c7202e544a7ad074805a5653
+=======
+    spriteID: 3646d946fb9090f43a9210ee57b084d5
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,8 +245,88 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     uvTransform: {x: 1571, y: 1579}
     spritePosition: {x: 2281, y: 1092}
+========
+    uvTransform: {x: 868, y: 1941}
+    spritePosition: {x: 2279, y: 1159}
+  - name: duim
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1269
+      y: 1956
+      width: 63
+      height: 82
+<<<<<<< Updated upstream
+    spriteID: 2885a3059479cbf4db21282498ef6032
+=======
+    spriteID: 4808dc15f7fac2347b5d174fb5c2a98d
+>>>>>>> Stashed changes
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1269, y: 1956}
+    spritePosition: {x: 2321, y: 1120}
+  - name: wijsvinger
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1967
+      y: 1220
+      width: 77
+      height: 114
+<<<<<<< Updated upstream
+    spriteID: 053ce112956a77a46a81e6854f6af037
+=======
+    spriteID: bd1b77fb162480e46bbd31130aedf08d
+>>>>>>> Stashed changes
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1967, y: 1220}
+    spritePosition: {x: 2351, y: 1103}
+  - name: middelvinger
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1139
+      y: 1956
+      width: 122
+      height: 73
+<<<<<<< Updated upstream
+    spriteID: 36ba749ac96aeaa4b9aa3af899966a32
+=======
+    spriteID: 50a3e506c9b10b84d93cec66432c7cce
+>>>>>>> Stashed changes
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1139, y: 1956}
+    spritePosition: {x: 2352, y: 1158}
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
   - name: knoop
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -210,7 +338,15 @@ ScriptedImporter:
       y: 1422
       width: 188
       height: 122
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 71778ad01172267408e4c363fe8befcf
+========
+<<<<<<< Updated upstream
+    spriteID: 23df54ab6acaf7e4eb564332f1121291
+=======
+    spriteID: 336fd2d228fd707498a483c57b67d566
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -231,7 +367,15 @@ ScriptedImporter:
       y: 1220
       width: 134
       height: 303
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 2d2e2cb6c873b6144aeb8d6903adfb01
+========
+<<<<<<< Updated upstream
+    spriteID: 927d2bd6e1048734eafdedf9daafcf7b
+=======
+    spriteID: 76b45657557ed1e4ebff4aaaef03f92a
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -252,7 +396,15 @@ ScriptedImporter:
       y: 1579
       width: 75
       height: 367
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 453c40d1073d9064da6c8db6198f7924
+========
+<<<<<<< Updated upstream
+    spriteID: c1c701543f233884795fc20eec1873a0
+=======
+    spriteID: e727b7781e2c6f7498e84ac1c29948ca
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -273,7 +425,15 @@ ScriptedImporter:
       y: 919
       width: 308
       height: 1062
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: fe02688e3e6a29e479e151da963c687f
+========
+<<<<<<< Updated upstream
+    spriteID: c9585d0bad62387488d2c10dca68010a
+=======
+    spriteID: 7ffb33664607f0e448608fdaf3d1c4cb
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -294,7 +454,15 @@ ScriptedImporter:
       y: 919
       width: 371
       height: 293
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 6bd0a7c7dc026b7459d7234b92343c1c
+========
+<<<<<<< Updated upstream
+    spriteID: 35d044b85fdcafe41ba2a3b4d498fe22
+=======
+    spriteID: 9056437855a76e74c98c7c682533e919
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -315,7 +483,15 @@ ScriptedImporter:
       y: 1220
       width: 289
       height: 351
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 6ff7580aede5f9d4b850ba5d41a0cb9a
+========
+<<<<<<< Updated upstream
+    spriteID: e6974c7be783c46448975efb076e1731
+=======
+    spriteID: 79cb1483e8184a645a8e9eb1bc279eb8
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -336,7 +512,15 @@ ScriptedImporter:
       y: 1398
       width: 141
       height: 161
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: fdb0e13116e0c9b49a62fe9df6c997c3
+========
+<<<<<<< Updated upstream
+    spriteID: dd11724e520855e4e8958847f6d09ca3
+=======
+    spriteID: 205bb0c92ff7fad439f873f66c75c0bd
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -357,7 +541,15 @@ ScriptedImporter:
       y: 1398
       width: 139
       height: 136
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 3533a1eeda550d84a90adb88c2fc2f55
+========
+<<<<<<< Updated upstream
+    spriteID: 889deabd2e204c343a7d65454d7f4c06
+=======
+    spriteID: 973b434b7fe23b34da4e1458ba5b6ae0
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -378,7 +570,15 @@ ScriptedImporter:
       y: 435
       width: 291
       height: 466
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 3ebf4cf1279f2374580c6b21088e5548
+========
+<<<<<<< Updated upstream
+    spriteID: a5c0d4a09bcd9d042af8f895a3ff80d7
+=======
+    spriteID: 94fc44457d747d440b089f1dad188bd6
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -399,7 +599,15 @@ ScriptedImporter:
       y: 1220
       width: 241
       height: 349
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d514fce61355e574894105c38cb89378
+========
+<<<<<<< Updated upstream
+    spriteID: 7baf4e6ea749447419422d99be9850e1
+=======
+    spriteID: 8a5777870bf87b34c9fe063a61ffa17e
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -420,7 +628,15 @@ ScriptedImporter:
       y: 4
       width: 338
       height: 423
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d5cda4dbb71db964297763f241935637
+========
+<<<<<<< Updated upstream
+    spriteID: 50ae00c9083c5944fa88a530dbdb96ca
+=======
+    spriteID: 7804b16187495da408be4729c85325f0
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -441,7 +657,15 @@ ScriptedImporter:
       y: 1579
       width: 128
       height: 183
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 9ca23e4d793d4424897b94e749bee993
+========
+<<<<<<< Updated upstream
+    spriteID: b010f68283951fd4f86917f09396876f
+=======
+    spriteID: 97240eeee5b3aaa46ae8c70a84a3cfd2
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -462,7 +686,15 @@ ScriptedImporter:
       y: 919
       width: 228
       height: 524
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 35dc6b3720bbdbe409a19dd782f18b6f
+========
+<<<<<<< Updated upstream
+    spriteID: 3d61feae7b4bcc647b2d6c91cf053b29
+=======
+    spriteID: 36432ae509ea3254ba4ff85818ca566a
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -483,7 +715,15 @@ ScriptedImporter:
       y: 1451
       width: 212
       height: 432
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 45ae6bfaf0253574998fb82448a327de
+========
+<<<<<<< Updated upstream
+    spriteID: e1318d78042f3484b8180c90e1c323e5
+=======
+    spriteID: 9e2929dcdbda1fe4f984841db787f57c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -504,7 +744,15 @@ ScriptedImporter:
       y: 642
       width: 253
       height: 202
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: ed1e812328b533640be7f437e5a483f6
+========
+<<<<<<< Updated upstream
+    spriteID: 879a27e45ce71a14883d8ed8c0c93531
+=======
+    spriteID: 23d45767ce7b3494c89cafaca8a734ac
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -525,7 +773,15 @@ ScriptedImporter:
       y: 1220
       width: 206
       height: 170
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 6e23dba8093f3844c990e3260c0b485d
+========
+<<<<<<< Updated upstream
+    spriteID: d6109f4b5043a7943859afb0d53412c5
+=======
+    spriteID: 49f92afc66c4d8244ac821a2a8fcc181
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -546,7 +802,15 @@ ScriptedImporter:
       y: 1220
       width: 189
       height: 194
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: ff1d9550fbce1b945979673420ab8ee2
+========
+<<<<<<< Updated upstream
+    spriteID: 66a7a7fb96fa56e4dbe02ac6cbbe3b52
+=======
+    spriteID: 7571e67f3668df5418d97de7f4ef7ab5
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -556,7 +820,61 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 1556, y: 1220}
     spritePosition: {x: 1643, y: 1362}
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
   - name: vuist
+========
+  - name: wijsfinger
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 745
+      y: 1891
+      width: 80
+      height: 120
+<<<<<<< Updated upstream
+    spriteID: eaa73012930acf74b88c92f9391a1595
+=======
+    spriteID: 52b0124ebc06d5e4b83ddddd42bfc38d
+>>>>>>> Stashed changes
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 745, y: 1891}
+    spritePosition: {x: 1385, y: 1146}
+  - name: duim
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1076
+      y: 1941
+      width: 49
+      height: 97
+<<<<<<< Updated upstream
+    spriteID: fd373186e45c75249b508d4e26cc3358
+=======
+    spriteID: 5d95e42567259d34fb3d0f7992130301
+>>>>>>> Stashed changes
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1076, y: 1941}
+    spritePosition: {x: 1452, y: 1156}
+  - name: middelvinger
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -565,9 +883,19 @@ ScriptedImporter:
       serializedVersion: 2
       x: 632
       y: 1891
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
       width: 133
       height: 103
     spriteID: 8ddd229a323f7314c9f28b0b55a623b6
+========
+      width: 105
+      height: 104
+<<<<<<< Updated upstream
+    spriteID: 6ec9649c1829ebe4b8a0e369d56c0fc7
+=======
+    spriteID: 4e9c50795efb5c947bd5f7c12be4fb5c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -576,7 +904,36 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 632, y: 1891}
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spritePosition: {x: 1386, y: 1199}
+========
+    spritePosition: {x: 1343, y: 1173}
+  - name: hand
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 972
+      y: 1941
+      width: 96
+      height: 71
+<<<<<<< Updated upstream
+    spriteID: 2451e461b24cdec468d6764d02ad543e
+=======
+    spriteID: 1f37cb0f6a0f9d84481d57d5c65d1c04
+>>>>>>> Stashed changes
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 972, y: 1941}
+    spritePosition: {x: 1424, y: 1225}
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
   - name: staart
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -588,7 +945,15 @@ ScriptedImporter:
       y: 4
       width: 1143
       height: 907
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 3b467c2d9bee4be4c80f5aede71c3f0d
+========
+<<<<<<< Updated upstream
+    spriteID: af45c0fd67c35e046b7923777d4d9ad3
+=======
+    spriteID: bddab9d32f7c773438ca09de2c5a7e9e
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -609,7 +974,15 @@ ScriptedImporter:
       y: 919
       width: 304
       height: 1064
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 78967870af69f1844ae064a0d0aa68db
+========
+<<<<<<< Updated upstream
+    spriteID: 3faa7c6818c99824ab4f386a33cba5ed
+=======
+    spriteID: 3ea160deab4a605499384b01a19bc114
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -630,7 +1003,15 @@ ScriptedImporter:
       y: 4
       width: 275
       height: 630
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 120e0beec09db8d4aa2e6c27891f5b3f
+========
+<<<<<<< Updated upstream
+    spriteID: dd7e2b7849ce4b342ad83e83a5fbf723
+=======
+    spriteID: 2eb92ba41d2765c4fb86e16248415e7a
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -651,7 +1032,15 @@ ScriptedImporter:
       y: 4
       width: 258
       height: 630
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: a61f1ce0cf266c44995f6879574129a2
+========
+<<<<<<< Updated upstream
+    spriteID: dfef7f9a737e8f94894a9767de5a95e1
+=======
+    spriteID: 5505b3b656697ed4099a014748418048
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -701,7 +1090,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: -1
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d822cb066daeba14bb68ec11d879ede4
+========
+<<<<<<< Updated upstream
+    spriteID: 280b5373d3aed8242ae2aedd65a202e8
+=======
+    spriteID: d115dd5382fd40f4e9dc53b08b5bb5eb
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 106
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -711,7 +1108,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 5b738950ec1365f4e895e5bbf31fc2ba
+========
+<<<<<<< Updated upstream
+    spriteID: 8c078d3a93a47f64ab05d1dc742dccd9
+=======
+    spriteID: 1b106d25c0f62d3438541a47888dff5b
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 5
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -721,7 +1126,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 1
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 61b42b73b61c61546837d77749c706d0
+========
+<<<<<<< Updated upstream
+    spriteID: 70cd5d34061f6cf4788f661fc2a8bece
+=======
+    spriteID: 2b2304aa1ccc95b488cc1a6e2e392d3b
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 7
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -731,7 +1144,15 @@ ScriptedImporter:
     spriteName: ogen
     isGroup: 0
     parentIndex: 2
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: c0603b3096dd9154c8d947a2b6259054
+========
+<<<<<<< Updated upstream
+    spriteID: 316032c28c0de6647a7c641e842b8a9a
+=======
+    spriteID: f7dc721ea3594e14caf3a91731ae692c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 11
     mosaicPosition: {x: 1414, y: 1531}
     flatten: 0
@@ -741,7 +1162,15 @@ ScriptedImporter:
     spriteName: hoofd
     isGroup: 0
     parentIndex: 2
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: b639d454c48995e4e867f3be0eecd23a
+========
+<<<<<<< Updated upstream
+    spriteID: 5cabc2f7d32c5d0489cf2207ad103d16
+=======
+    spriteID: f76a1982043e0ac4ebbf1dae5cef4a3c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 4
     mosaicPosition: {x: 868, y: 1579}
     flatten: 0
@@ -751,7 +1180,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 3e00c82b537bf7a469274bb745c34028
+========
+<<<<<<< Updated upstream
+    spriteID: fca8ccd6ad8df054f919e78d909f4a56
+=======
+    spriteID: 021e22a6dbb5f0d47a3750ca78541ead
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 21
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -761,7 +1198,15 @@ ScriptedImporter:
     spriteName: onderarm
     isGroup: 0
     parentIndex: 5
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d8cc00e187001c64d9ec29405b23fe98
+========
+<<<<<<< Updated upstream
+    spriteID: 2f17ca992dbca41488e21fd29f38c862
+=======
+    spriteID: 7d79866523c469d4693a4c2e67e83c6b
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 24
     mosaicPosition: {x: 1155, y: 642}
     flatten: 0
@@ -771,7 +1216,15 @@ ScriptedImporter:
     spriteName: bovenarm
     isGroup: 0
     parentIndex: 5
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: d7e8bc00f72e38d4b98761673382c639
+========
+<<<<<<< Updated upstream
+    spriteID: 94e891cb8d0d9b042aca6c0f80ac5480
+=======
+    spriteID: 1d28058c8273b1e42962467377707682
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 23
     mosaicPosition: {x: 1139, y: 1579}
     flatten: 0
@@ -781,9 +1234,19 @@ ScriptedImporter:
     spriteName: vuist
     isGroup: 0
     parentIndex: 5
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: eda9c33279eb01548adc68b0efa472ea
     layerID: 114
     mosaicPosition: {x: 1571, y: 1579}
+========
+<<<<<<< Updated upstream
+    spriteID: 22c58058c7202e544a7ad074805a5653
+=======
+    spriteID: 3646d946fb9090f43a9210ee57b084d5
+>>>>>>> Stashed changes
+    layerID: 25
+    mosaicPosition: {x: 868, y: 1941}
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -810,8 +1273,17 @@ ScriptedImporter:
   - name: duim
     spriteName: 
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 9
     spriteID: cd9e0de5bb629444fbb3f0cd0829dcae
+========
+    parentIndex: 5
+<<<<<<< Updated upstream
+    spriteID: 2885a3059479cbf4db21282498ef6032
+=======
+    spriteID: 4808dc15f7fac2347b5d174fb5c2a98d
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 28
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -820,8 +1292,17 @@ ScriptedImporter:
   - name: wijsvinger
     spriteName: 
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 9
     spriteID: 8bd95c1860f898b469a2a1a36273357d
+========
+    parentIndex: 5
+<<<<<<< Updated upstream
+    spriteID: 053ce112956a77a46a81e6854f6af037
+=======
+    spriteID: bd1b77fb162480e46bbd31130aedf08d
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 26
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -830,8 +1311,17 @@ ScriptedImporter:
   - name: middelvinger
     spriteName: 
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 9
     spriteID: 86301e7a89e7e6c42968954907ca5b0b
+========
+    parentIndex: 5
+<<<<<<< Updated upstream
+    spriteID: 36ba749ac96aeaa4b9aa3af899966a32
+=======
+    spriteID: 50a3e506c9b10b84d93cec66432c7cce
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 27
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -841,7 +1331,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 58564ee7d1b6bbf44ad8f46f64f15ade
+========
+<<<<<<< Updated upstream
+    spriteID: 274b59d1b796fd84a933bffb84efffee
+=======
+    spriteID: be633894626457e4886d5af7ca1eb6b3
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 51
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -850,8 +1348,17 @@ ScriptedImporter:
   - name: knoop
     spriteName: knoop
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 14
     spriteID: 71778ad01172267408e4c363fe8befcf
+========
+    parentIndex: 12
+<<<<<<< Updated upstream
+    spriteID: 23df54ab6acaf7e4eb564332f1121291
+=======
+    spriteID: 336fd2d228fd707498a483c57b67d566
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 76
     mosaicPosition: {x: 1556, y: 1422}
     flatten: 0
@@ -860,8 +1367,17 @@ ScriptedImporter:
   - name: links
     spriteName: links
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 14
     spriteID: 2d2e2cb6c873b6144aeb8d6903adfb01
+========
+    parentIndex: 12
+<<<<<<< Updated upstream
+    spriteID: 927d2bd6e1048734eafdedf9daafcf7b
+=======
+    spriteID: 76b45657557ed1e4ebff4aaaef03f92a
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 55
     mosaicPosition: {x: 1414, y: 1220}
     flatten: 0
@@ -870,8 +1386,17 @@ ScriptedImporter:
   - name: rechts
     spriteName: rechts
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 14
     spriteID: 453c40d1073d9064da6c8db6198f7924
+========
+    parentIndex: 12
+<<<<<<< Updated upstream
+    spriteID: c1c701543f233884795fc20eec1873a0
+=======
+    spriteID: e727b7781e2c6f7498e84ac1c29948ca
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 54
     mosaicPosition: {x: 1352, y: 1579}
     flatten: 0
@@ -881,7 +1406,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 5b63ca82da21f66479843c6bf587e2d2
+========
+<<<<<<< Updated upstream
+    spriteID: a660b1af6432665459fae1813294384d
+=======
+    spriteID: 8ae2ccf9bdf0cae48890d2dd2fc4f5b2
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 57
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -890,8 +1423,17 @@ ScriptedImporter:
   - name: voorste_kleed
     spriteName: voorste_kleed
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 18
     spriteID: fe02688e3e6a29e479e151da963c687f
+========
+    parentIndex: 16
+<<<<<<< Updated upstream
+    spriteID: c9585d0bad62387488d2c10dca68010a
+=======
+    spriteID: 7ffb33664607f0e448608fdaf3d1c4cb
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 59
     mosaicPosition: {x: 4, y: 919}
     flatten: 0
@@ -901,7 +1443,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 16efa52a621c4a548bea5969b1f8414d
+========
+<<<<<<< Updated upstream
+    spriteID: d83a37bb467d7cc41a4ae1e6df5e3db1
+=======
+    spriteID: 58d3d2834e687ac419b7706096adf625
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 19
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -910,8 +1460,17 @@ ScriptedImporter:
   - name: onderlichaam
     spriteName: onderlichaam
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 20
     spriteID: 6bd0a7c7dc026b7459d7234b92343c1c
+========
+    parentIndex: 18
+<<<<<<< Updated upstream
+    spriteID: 35d044b85fdcafe41ba2a3b4d498fe22
+=======
+    spriteID: 9056437855a76e74c98c7c682533e919
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 40
     mosaicPosition: {x: 868, y: 919}
     flatten: 0
@@ -920,8 +1479,17 @@ ScriptedImporter:
   - name: torso
     spriteName: torso
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 20
     spriteID: 6ff7580aede5f9d4b850ba5d41a0cb9a
+========
+    parentIndex: 18
+<<<<<<< Updated upstream
+    spriteID: e6974c7be783c46448975efb076e1731
+=======
+    spriteID: 79cb1483e8184a645a8e9eb1bc279eb8
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 18
     mosaicPosition: {x: 868, y: 1220}
     flatten: 0
@@ -931,7 +1499,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 6c1f4a9b73050df46bc7aeeebbbc236a
+========
+<<<<<<< Updated upstream
+    spriteID: c60e35e833b7e204bb6402c5af5cc626
+=======
+    spriteID: f3641fa2ce61a854083c97f4cbf5a128
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 71
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -940,8 +1516,17 @@ ScriptedImporter:
   - name: neck
     spriteName: neck
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 23
     spriteID: fdb0e13116e0c9b49a62fe9df6c997c3
+========
+    parentIndex: 21
+<<<<<<< Updated upstream
+    spriteID: dd11724e520855e4e8958847f6d09ca3
+=======
+    spriteID: 205bb0c92ff7fad439f873f66c75c0bd
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 9
     mosaicPosition: {x: 1753, y: 1398}
     flatten: 0
@@ -951,7 +1536,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 087cf54e05bf49e40abefab226f823dc
+========
+<<<<<<< Updated upstream
+    spriteID: 4df6b94413b9e10429213537572f0443
+=======
+    spriteID: 46382edbed0a2b642805e702b1186be5
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 45
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -960,8 +1553,17 @@ ScriptedImporter:
   - name: knie
     spriteName: knie
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 25
     spriteID: 3533a1eeda550d84a90adb88c2fc2f55
+========
+    parentIndex: 23
+<<<<<<< Updated upstream
+    spriteID: 889deabd2e204c343a7d65454d7f4c06
+=======
+    spriteID: 973b434b7fe23b34da4e1458ba5b6ae0
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 48
     mosaicPosition: {x: 1902, y: 1398}
     flatten: 0
@@ -970,8 +1572,17 @@ ScriptedImporter:
   - name: onderbeen
     spriteName: onderbeen
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 25
     spriteID: 3ebf4cf1279f2374580c6b21088e5548
+========
+    parentIndex: 23
+<<<<<<< Updated upstream
+    spriteID: a5c0d4a09bcd9d042af8f895a3ff80d7
+=======
+    spriteID: 94fc44457d747d440b089f1dad188bd6
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 49
     mosaicPosition: {x: 1704, y: 435}
     flatten: 0
@@ -980,8 +1591,17 @@ ScriptedImporter:
   - name: bovenbeen
     spriteName: bovenbeen
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 25
     spriteID: d514fce61355e574894105c38cb89378
+========
+    parentIndex: 23
+<<<<<<< Updated upstream
+    spriteID: 7baf4e6ea749447419422d99be9850e1
+=======
+    spriteID: 8a5777870bf87b34c9fe063a61ffa17e
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 47
     mosaicPosition: {x: 1165, y: 1220}
     flatten: 0
@@ -990,8 +1610,17 @@ ScriptedImporter:
   - name: voet
     spriteName: voet
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 25
     spriteID: d5cda4dbb71db964297763f241935637
+========
+    parentIndex: 23
+<<<<<<< Updated upstream
+    spriteID: 50ae00c9083c5944fa88a530dbdb96ca
+=======
+    spriteID: 7804b16187495da408be4729c85325f0
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 50
     mosaicPosition: {x: 1704, y: 4}
     flatten: 0
@@ -1001,7 +1630,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: df404cdc28b3b634b9ff31bd458a4a7a
+========
+<<<<<<< Updated upstream
+    spriteID: 2a071c96c16534f4687d6d773a718df4
+=======
+    spriteID: 6b73e912a1974e44eb750dbbf0a835ef
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 38
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -1010,8 +1647,17 @@ ScriptedImporter:
   - name: knie
     spriteName: knie
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 30
     spriteID: 9ca23e4d793d4424897b94e749bee993
+========
+    parentIndex: 28
+<<<<<<< Updated upstream
+    spriteID: b010f68283951fd4f86917f09396876f
+=======
+    spriteID: 97240eeee5b3aaa46ae8c70a84a3cfd2
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 42
     mosaicPosition: {x: 1435, y: 1579}
     flatten: 0
@@ -1020,8 +1666,17 @@ ScriptedImporter:
   - name: onderbeen
     spriteName: onderbeen
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 30
     spriteID: 35dc6b3720bbdbe409a19dd782f18b6f
+========
+    parentIndex: 28
+<<<<<<< Updated upstream
+    spriteID: 3d61feae7b4bcc647b2d6c91cf053b29
+=======
+    spriteID: 36432ae509ea3254ba4ff85818ca566a
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 43
     mosaicPosition: {x: 632, y: 919}
     flatten: 0
@@ -1030,8 +1685,17 @@ ScriptedImporter:
   - name: bovenbeen
     spriteName: bovenbeen
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 30
     spriteID: 45ae6bfaf0253574998fb82448a327de
+========
+    parentIndex: 28
+<<<<<<< Updated upstream
+    spriteID: e1318d78042f3484b8180c90e1c323e5
+=======
+    spriteID: 9e2929dcdbda1fe4f984841db787f57c
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 41
     mosaicPosition: {x: 632, y: 1451}
     flatten: 0
@@ -1040,8 +1704,17 @@ ScriptedImporter:
   - name: voet
     spriteName: voet
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 30
     spriteID: ed1e812328b533640be7f437e5a483f6
+========
+    parentIndex: 28
+<<<<<<< Updated upstream
+    spriteID: 879a27e45ce71a14883d8ed8c0c93531
+=======
+    spriteID: 23d45767ce7b3494c89cafaca8a734ac
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 44
     mosaicPosition: {x: 1438, y: 642}
     flatten: 0
@@ -1051,7 +1724,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 62b02404c44daa54b8062bc11157a6a2
+========
+<<<<<<< Updated upstream
+    spriteID: e213d2e1c187b574b85789df8112075e
+=======
+    spriteID: 268cb014386e6434b8e4236e114371e2
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 29
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -1060,8 +1741,17 @@ ScriptedImporter:
   - name: onderarm
     spriteName: onderarm
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 35
     spriteID: 6e23dba8093f3844c990e3260c0b485d
+========
+    parentIndex: 33
+<<<<<<< Updated upstream
+    spriteID: d6109f4b5043a7943859afb0d53412c5
+=======
+    spriteID: 49f92afc66c4d8244ac821a2a8fcc181
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 33
     mosaicPosition: {x: 1753, y: 1220}
     flatten: 0
@@ -1070,8 +1760,17 @@ ScriptedImporter:
   - name: bovenarm
     spriteName: bovenarm
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 35
     spriteID: ff1d9550fbce1b945979673420ab8ee2
+========
+    parentIndex: 33
+<<<<<<< Updated upstream
+    spriteID: 66a7a7fb96fa56e4dbe02ac6cbbe3b52
+=======
+    spriteID: 7571e67f3668df5418d97de7f4ef7ab5
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 31
     mosaicPosition: {x: 1556, y: 1220}
     flatten: 0
@@ -1080,20 +1779,71 @@ ScriptedImporter:
   - name: vuist
     spriteName: vuist
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 35
     spriteID: 8ddd229a323f7314c9f28b0b55a623b6
     layerID: 116
+========
+    parentIndex: 33
+<<<<<<< Updated upstream
+    spriteID: eaa73012930acf74b88c92f9391a1595
+=======
+    spriteID: 52b0124ebc06d5e4b83ddddd42bfc38d
+>>>>>>> Stashed changes
+    layerID: 35
+    mosaicPosition: {x: 745, y: 1891}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: duim
+    spriteName: duim
+    isGroup: 0
+    parentIndex: 33
+<<<<<<< Updated upstream
+    spriteID: fd373186e45c75249b508d4e26cc3358
+=======
+    spriteID: 5d95e42567259d34fb3d0f7992130301
+>>>>>>> Stashed changes
+    layerID: 37
+    mosaicPosition: {x: 1076, y: 1941}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: middelvinger
+    spriteName: middelvinger
+    isGroup: 0
+    parentIndex: 33
+<<<<<<< Updated upstream
+    spriteID: 6ec9649c1829ebe4b8a0e369d56c0fc7
+=======
+    spriteID: 4e9c50795efb5c947bd5f7c12be4fb5c
+>>>>>>> Stashed changes
+    layerID: 36
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     mosaicPosition: {x: 632, y: 1891}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: hand
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteName: 
     isGroup: 1
     parentIndex: 35
     spriteID: 64c9286465a9d1245a1c91a432ef64a5
     layerID: 110
     mosaicPosition: {x: 0, y: 0}
+========
+    spriteName: hand
+    isGroup: 0
+    parentIndex: 33
+<<<<<<< Updated upstream
+    spriteID: 2451e461b24cdec468d6764d02ad543e
+=======
+    spriteID: 1f37cb0f6a0f9d84481d57d5c65d1c04
+>>>>>>> Stashed changes
+    layerID: 34
+    mosaicPosition: {x: 972, y: 1941}
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     flatten: 0
     isImported: 0
     isVisible: 0
@@ -1141,7 +1891,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: e9073104c2a38994fbedfcccd6501968
+========
+<<<<<<< Updated upstream
+    spriteID: 27e8ad002844bd3459b57f9199044e71
+=======
+    spriteID: 13d1744f9e1f6734e8d097898661652e
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 64
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -1150,8 +1908,17 @@ ScriptedImporter:
   - name: staart
     spriteName: staart
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 44
     spriteID: 3b467c2d9bee4be4c80f5aede71c3f0d
+========
+    parentIndex: 40
+<<<<<<< Updated upstream
+    spriteID: af45c0fd67c35e046b7923777d4d9ad3
+=======
+    spriteID: bddab9d32f7c773438ca09de2c5a7e9e
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 66
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
@@ -1161,7 +1928,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: abdd17ae565a08841895af695a378bf3
+========
+<<<<<<< Updated upstream
+    spriteID: da9928c0e95d46f4991bfe9cb89909b1
+=======
+    spriteID: 5d3ade0399391444e988b5d796b334f5
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 61
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -1170,8 +1945,17 @@ ScriptedImporter:
   - name: kleed_achteraan
     spriteName: kleed_achteraan
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 46
     spriteID: 78967870af69f1844ae064a0d0aa68db
+========
+    parentIndex: 42
+<<<<<<< Updated upstream
+    spriteID: 3faa7c6818c99824ab4f386a33cba5ed
+=======
+    spriteID: 3ea160deab4a605499384b01a19bc114
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 63
     mosaicPosition: {x: 320, y: 919}
     flatten: 0
@@ -1181,7 +1965,15 @@ ScriptedImporter:
     spriteName: 
     isGroup: 1
     parentIndex: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     spriteID: 36e452438939e1e489fd7feee237e77f
+========
+<<<<<<< Updated upstream
+    spriteID: b6dad23705792f545b3dc147ec257ae4
+=======
+    spriteID: d460586e4efe1144cad8ae8676063613
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 13
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
@@ -1190,8 +1982,17 @@ ScriptedImporter:
   - name: veil lrechterkant
     spriteName: veil lrechterkant
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 48
     spriteID: 120e0beec09db8d4aa2e6c27891f5b3f
+========
+    parentIndex: 44
+<<<<<<< Updated upstream
+    spriteID: dd7e2b7849ce4b342ad83e83a5fbf723
+=======
+    spriteID: 2eb92ba41d2765c4fb86e16248415e7a
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 15
     mosaicPosition: {x: 1155, y: 4}
     flatten: 0
@@ -1200,8 +2001,17 @@ ScriptedImporter:
   - name: veil linkerkant
     spriteName: veil linkerkant
     isGroup: 0
+<<<<<<<< HEAD:TefnutFighter/Assets/Game Desing/karakters/tefnutmodel_metvuisten.psb.meta
     parentIndex: 48
     spriteID: a61f1ce0cf266c44995f6879574129a2
+========
+    parentIndex: 44
+<<<<<<< Updated upstream
+    spriteID: dfef7f9a737e8f94894a9767de5a95e1
+=======
+    spriteID: 5505b3b656697ed4099a014748418048
+>>>>>>> Stashed changes
+>>>>>>>> 8bd2de2ce3612b653fc3942f079fa53b5d8cf150:TefnutFighter/Assets/Game Desing/karakters/tefnutmodelsprite.psb.meta
     layerID: 17
     mosaicPosition: {x: 1438, y: 4}
     flatten: 0
