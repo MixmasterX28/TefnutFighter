@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:TefnutFighter/Assets/DoNotDestroy.cs.meta
+guid: f3432894a5dde824890cfa6643cc45de
+========
+guid: b08515338b0307e46a37f7b68c3c07ff
+>>>>>>>> 7f54f706488b2ce3f1a84020217479dfd02c8529:TefnutFighter/Assets/CombatSystem.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
