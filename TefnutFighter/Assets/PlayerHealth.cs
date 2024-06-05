@@ -23,8 +23,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Die()
     {
-        // Implementa la lógica de muerte del jugador (ej., desactivar el jugador, reproducir animación, etc.)
-        Debug.Log(name + " ha muerto.");
+        Debug.Log(name + " is dead.");
         gameObject.SetActive(false);
     }
 }
