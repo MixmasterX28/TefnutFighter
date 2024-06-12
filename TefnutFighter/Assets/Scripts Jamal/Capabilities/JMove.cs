@@ -11,7 +11,7 @@ public class JMove : MonoBehaviour
 
     private Vector2 direction;
     private Vector2 desiredVelocity;
-    private Vector2 velocity;
+    public Vector2 velocity;
     private Rigidbody2D body;
     private Ground ground;
 
