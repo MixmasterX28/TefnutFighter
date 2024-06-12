@@ -1615,8 +1615,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5076327921854398645}
   - component: {fileID: 416588478015310057}
-  - component: {fileID: 7951789546886509895}
-  - component: {fileID: 2979833429219766260}
   m_Layer: 0
   m_Name: stick_figure_base_v3
   m_TagString: Untagged
@@ -1676,36 +1674,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7951789546886509895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6249488361196361942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4bd117a4169c6c4fb94fd1eede426f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controladorGolpe: {fileID: 4738730645054622476}
-  radioGolpe: 1
-  punchDamage: 50
-  TimePunch: 1
-  TimeNextPunch: 0
---- !u!114 &2979833429219766260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6249488361196361942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a61b2729a07759448a8897ebe260782, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidadDeMovimiento: 500
 --- !u!1 &6438130807020183710
 GameObject:
   m_ObjectHideFlags: 0
