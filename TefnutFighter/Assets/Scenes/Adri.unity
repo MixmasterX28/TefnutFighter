@@ -359,6 +359,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 7951789546886509895, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: punchKey
+      value: 264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951789546886509895, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: heavyPunchKey
+      value: 265
+      objectReference: {fileID: 0}
     - target: {fileID: 8317652994099806399, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
       propertyPath: input
       value: 
@@ -394,6 +402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  currentHealth: 0
   healthbar: {fileID: 1357870776}
 --- !u!1001 &303651637
 PrefabInstance:
@@ -754,6 +763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  currentHealth: 0
   healthbar: {fileID: 620995315}
 --- !u!1 &1357870774
 GameObject:

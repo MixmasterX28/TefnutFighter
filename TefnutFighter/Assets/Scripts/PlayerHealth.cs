@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 100;
+    [SerializeField] private float maxHealth = 100;
     
-    private float currentHealth;
+    [SerializeField]private float currentHealth;
 
     public Healthbar healthbar;
 
     void Awake()
     {
         currentHealth = maxHealth;
-        healthbar.SetMaxHealth(maxHealth);
+        healthbar.SetHealth(maxHealth);
     }
 
     public void TakeDamage(float damage)
     {
         currentHealth -= damage;
 
-        healthbar.SetMaxHealth(maxHealth);
+        healthbar.SetHealth(currentHealth);
 
         if (currentHealth <= 0)
         {
