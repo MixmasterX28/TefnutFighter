@@ -65,21 +65,13 @@ public class CharacterSelectController : MonoBehaviour
         lastActiveIndexes[playerIndex] = selectedIndex;
 
     }
-    void UpdateSelectionOriginal(Image[] characterIcons, int selectedIndex, Color targetColor)
+    /*void UpdateSelectionOriginal(Image[] characterIcons, int selectedIndex, Color targetColor)
     {
         for (int i = 0; i < characterIcons.Length; i++)
         {
             characterIcons[i].color = (i == selectedIndex) ? targetColor : Color.white;
         }
-    }
-    /* void UpdateSelection2(Image[] characterIcons, int selectedIndex)
-     {
-         for (int i = 0; i < characterIcons.Length; i++)
-         {
-             characterIcons[i].color = (i == selectedIndex) ? Color.blue : Color.white;
-         }
-     }
-    */
+    }*/
     void ConfirmSelection()
     {
         CharacterSelection.player1SelectedCharacter = characters[player1SelectedIndex];
