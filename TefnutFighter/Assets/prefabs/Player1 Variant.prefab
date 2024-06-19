@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &61917558813747853
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1507294205597136358, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652674642646145584, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: m_Name
+      value: Player1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951789546886509895, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: punchDamage
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317652994099806399, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: input
+      value: 
+      objectReference: {fileID: 11400000, guid: af42b5a1c33786f4b9b4ad81426743dd, type: 2}
+    - target: {fileID: 9177436314043136343, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      propertyPath: input
+      value: 
+      objectReference: {fileID: 11400000, guid: af42b5a1c33786f4b9b4ad81426743dd, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 7893187070259005686, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7652674642646145584, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 671594305303820722}
+  m_SourcePrefab: {fileID: 100100000, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+--- !u!1 &7703471740317593789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7652674642646145584, guid: 6c3f23ffcf316674290401bd1cd68692, type: 3}
+  m_PrefabInstance: {fileID: 61917558813747853}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &671594305303820722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7703471740317593789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eef35a859c8a054c9998ccc14d14d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthbar: {fileID: 0}
