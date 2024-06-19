@@ -1693,6 +1693,8 @@ MonoBehaviour:
   punchDamage: 50
   TimePunch: 1
   TimeNextPunch: 0
+  punchKey: 264
+  heavyPunchKey: 265
 --- !u!114 &2979833429219766260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2104,6 +2106,8 @@ GameObject:
   - component: {fileID: 9177436314043136343}
   - component: {fileID: 8317652994099806399}
   - component: {fileID: 6332296026850806533}
+  - component: {fileID: 3440735666137460148}
+  - component: {fileID: 2888601427981725505}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Player
@@ -2126,7 +2130,6 @@ Transform:
   m_Children:
   - {fileID: 5076327921854398645}
   - {fileID: 4738730645054622476}
-  - {fileID: 6320119387928397704}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &7259960294896130142
@@ -2203,7 +2206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d43f75caf8b3747be3a84a9f53c6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: e4bd1e98ccc6f7746a556ff324d0dea1, type: 2}
+  input: {fileID: 11400000, guid: 29f28b9fca5e0ec459dd8de3e9203e8b, type: 2}
   maxSpeed: 20
   maxAcceleration: 90
   maxAirAcceleration: 20
@@ -2219,7 +2222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04e7ad5ad0af184d847ce5eee815473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: e4bd1e98ccc6f7746a556ff324d0dea1, type: 2}
+  input: {fileID: 11400000, guid: 29f28b9fca5e0ec459dd8de3e9203e8b, type: 2}
   jumpHeight: 20
   maxAirJump: 1
   downwardMovementMultiplier: 5
@@ -2236,37 +2239,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1dc4e0c12cce834e83559433431826a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &7893187070259005686
-GameObject:
+--- !u!114 &3440735666137460148
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6320119387928397704}
-  m_Layer: 0
-  m_Name: ControladorSuelo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6320119387928397704
-Transform:
+  m_GameObject: {fileID: 7652674642646145584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eef35a859c8a054c9998ccc14d14d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthbar: {fileID: 0}
+--- !u!114 &2888601427981725505
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7893187070259005686}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.05, y: -1.64, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1507294205597136358}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 7652674642646145584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eef35a859c8a054c9998ccc14d14d47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthbar: {fileID: 0}
 --- !u!1 &8063119319786744881
 GameObject:
   m_ObjectHideFlags: 0

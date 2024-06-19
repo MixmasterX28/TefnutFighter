@@ -10,10 +10,15 @@ public class PlayerHealth : MonoBehaviour
 
     public Healthbar healthbar;
 
-    void Awake()
+   // void Awake()
+   // {
+   // }
+
+    public void InitHealthBar()
     {
         currentHealth = maxHealth;
         healthbar.SetHealth(maxHealth);
+
     }
 
     public void TakeDamage(float damage)
