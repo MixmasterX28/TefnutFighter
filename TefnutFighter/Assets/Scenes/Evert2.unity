@@ -920,14 +920,14 @@ MonoBehaviour:
   - {fileID: 1927133930}
   - {fileID: 650272079}
   characters:
-  - {fileID: 1284600382935308014, guid: 92be244e813a7304381ec62e3b4bfa5a, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
-  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 2658021667389933584, guid: 2f6e75d0146b19e468c5ab1d4487002c, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
+  - {fileID: 612612531013177195, guid: 1c6da7eb0ea2a874f81d923c97dfc752, type: 3}
   player1SpawnPoint: {fileID: 0}
   player2SpawnPoint: {fileID: 0}
 --- !u!1 &1451379114

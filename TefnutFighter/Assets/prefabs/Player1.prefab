@@ -32,7 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.69, y: -4.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5349225939511257584}
   - {fileID: 7434658032720896267}
@@ -70,8 +70,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.46341556, y: 0.010167718}
-  m_Size: {x: 1.3238975, y: 3.350097}
+  m_Offset: {x: 0.32100892, y: -0.27320385}
+  m_Size: {x: 1.5988855, y: 4.6812067}
   m_Direction: 0
 --- !u!50 &8308776165504434227
 Rigidbody2D:
@@ -262,9 +262,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 0ba3b1d9034f5d54aaf268ba3e8537d4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2122250276528262632}
-    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 0ba3b1d9034f5d54aaf268ba3e8537d4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5435341977999668728}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 0ba3b1d9034f5d54aaf268ba3e8537d4, type: 3}
 --- !u!4 &5349225939511257584 stripped
 Transform:
@@ -330,16 +327,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadDeMovimiento: 500
   jMovescript: {fileID: 2004582492758485083}
---- !u!114 &5435341977999668728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6553966103537971603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eef35a859c8a054c9998ccc14d14d47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
