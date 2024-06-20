@@ -25,8 +25,7 @@ public class Animation : MonoBehaviour
         float velocityX = jMovescript.velocity.x;
 
       
-        movimientoVertical = Input.GetAxisRaw("Vertical") * velocidadDeMovimiento;
-
+        movimientoVertical = Input.GetAxis("Vertical2") * velocidadDeMovimiento;
         animator.SetFloat("Horizontal", Mathf.Abs(velocityX));
 
         //animator.speed = Mathf.Abs(velocityX);

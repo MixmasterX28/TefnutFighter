@@ -327,3 +327,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidadDeMovimiento: 500
   jMovescript: {fileID: 2004582492758485083}
+  jump: {fileID: 937165731143236751}
