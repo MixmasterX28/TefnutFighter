@@ -920,14 +920,14 @@ MonoBehaviour:
   - {fileID: 1927133930}
   - {fileID: 650272079}
   characters:
-  - {fileID: 4065094462141542070, guid: f15126777388c4649b6d41d318e037ef, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
-  - {fileID: 6486350069267221774, guid: 92b17fc8451481b49af069a53fa28955, type: 3}
+  - {fileID: 1284600382935308014, guid: 92be244e813a7304381ec62e3b4bfa5a, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
+  - {fileID: 8971228153887063245, guid: f828cfc2c3ab228488b4f3d250f42748, type: 3}
   player1SpawnPoint: {fileID: 0}
   player2SpawnPoint: {fileID: 0}
 --- !u!1 &1451379114
@@ -1161,7 +1161,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

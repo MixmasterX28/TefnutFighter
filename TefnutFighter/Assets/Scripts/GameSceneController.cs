@@ -12,6 +12,7 @@ public class GameSceneController : MonoBehaviour
     {
         if (CharacterSelection.player1SelectedCharacter != null)
         {
+            Debug.Log("p1bugged");
             Instantiate(CharacterSelection.player1SelectedCharacter, player1SpawnPoint.position, player1SpawnPoint.rotation);
         }
         else
@@ -21,6 +22,7 @@ public class GameSceneController : MonoBehaviour
 
         if (CharacterSelection.player2SelectedCharacter != null)
         {
+            Debug.Log("p2bugged");
             Instantiate(CharacterSelection.player2SelectedCharacter, player2SpawnPoint.position, player2SpawnPoint.rotation);
         }
         else

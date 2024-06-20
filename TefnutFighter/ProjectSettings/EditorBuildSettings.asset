@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Evert2.unity
     guid: a2d59cb2a17f7494987ec17535f8a77c
   - enabled: 1
+    path: Assets/Scenes/FbuildTest.unity
+    guid: 29f0c096f1b35c64da25d0e507298488
+  - enabled: 1
     path: Assets/Scenes/Evert.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
