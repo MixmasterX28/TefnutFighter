@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CombatCac : MonoBehaviour
+public class CombatCacPlayer2 : MonoBehaviour
 {
     [SerializeField] private Transform controladorGolpe;
-    [SerializeField] private float radioGolpe;
+    [SerializeField] private float radioGolpe = 1f;
     [SerializeField] private float punchDamage;
     [SerializeField] private float TimePunch;
     [SerializeField] private float TimeNextPunch;
-    [SerializeField] private KeyCode punchKey = KeyCode.E; // Ajusta las teclas para cada jugador
-    [SerializeField] private KeyCode heavyPunchKey = KeyCode.R; // Ajusta las teclas para cada jugador
+    [SerializeField] private KeyCode punchKey = KeyCode.N; // Ajusta las teclas para cada jugador
+    [SerializeField] private KeyCode heavyPunchKey = KeyCode.M; // Ajusta las teclas para cada jugador
     private Animator animator;
 
     private void Start()
@@ -38,12 +38,12 @@ public class CombatCac : MonoBehaviour
 
     private void Golpe()
     {
-        animator.SetTrigger("Punch");
+        animator.SetTrigger("Punch2");
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
         foreach (Collider2D colisionador in objetos)
         {
-            if (colisionador.CompareTag("Player"))
+            if (colisionador.CompareTag("Player1"))
             {
                 colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage); // Asegúrate de que tus jugadores tengan el componente PlayerHealth
             }
@@ -52,12 +52,12 @@ public class CombatCac : MonoBehaviour
 
     private void GolpeHeavy()
     {
-        animator.SetTrigger("HeavyPunch");
+        animator.SetTrigger("HeavyPunch2");
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
         foreach (Collider2D colisionador in objetos)
         {
-            if (colisionador.CompareTag("Player"))
+            if (colisionador.CompareTag("Player1"))
             {
                 colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage); // Asegúrate de que tus jugadores tengan el componente PlayerHealth
             }
