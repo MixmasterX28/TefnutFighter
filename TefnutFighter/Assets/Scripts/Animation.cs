@@ -38,7 +38,7 @@ public class Animation : MonoBehaviour
         if (!animator.GetCurrentAnimatorStateInfo(0).Equals("jump"))
         {
             animator.speed = 1;
-            animator.SetFloat("ja", Mathf.Abs(movimientoVertical));
+            animator.SetFloat("jump", Mathf.Abs(movimientoVertical));
         }
         
             
