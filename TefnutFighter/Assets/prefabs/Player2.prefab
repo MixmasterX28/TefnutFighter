@@ -84,7 +84,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &729333914900196013
 Transform:
   m_ObjectHideFlags: 0
@@ -257,7 +257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7632268445563226617}
-  - component: {fileID: 3696689484874503061}
+  - component: {fileID: 414070242218361190}
   - component: {fileID: 1556224619929106048}
   - component: {fileID: 3800859919456301452}
   - component: {fileID: 3417665368206388368}
@@ -278,16 +278,16 @@ Transform:
   m_GameObject: {fileID: 612612531013177195}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.02, y: -0.06, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 729333914900196013}
   - {fileID: 2484548018875864730}
   - {fileID: 3239425748049479747}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &3696689484874503061
+--- !u!70 &414070242218361190
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -319,8 +319,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.035957873, y: -0.33377555}
-  m_Size: {x: 0.8366054, y: 2.6622105}
+  m_Offset: {x: 0.74, y: -0.26}
+  m_Size: {x: 1.5, y: 4.6}
   m_Direction: 0
 --- !u!50 &1556224619929106048
 Rigidbody2D:
@@ -2481,6 +2481,10 @@ PrefabInstance:
       value: anubismodel
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: e4b4592b74683a146b63eaa81462e61c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8653719598885068355, guid: e4b4592b74683a146b63eaa81462e61c, type: 3}
       propertyPath: m_TagString
       value: Player2
       objectReference: {fileID: 0}
@@ -2502,7 +2506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: e4b4592b74683a146b63eaa81462e61c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.16
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: e4b4592b74683a146b63eaa81462e61c, type: 3}
       propertyPath: m_LocalPosition.z

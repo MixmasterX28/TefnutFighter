@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2658021667389933584}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.69, y: -4.59, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -70,8 +70,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.32100892, y: -0.27320385}
-  m_Size: {x: 1.5988855, y: 4.6812067}
+  m_Offset: {x: 0.3, y: -0.2}
+  m_Size: {x: 1.5, y: 4.6}
   m_Direction: 0
 --- !u!50 &8308776165504434227
 Rigidbody2D:
@@ -112,14 +112,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d43f75caf8b3747be3a84a9f53c6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputs:
-  - {fileID: 11400000, guid: faa8932596a8f034bab36b850dcbbad1, type: 2}
-  - {fileID: 11400000, guid: e97c81fe53d19244ba9c20ddcf8e2096, type: 2}
+  input: {fileID: 0}
   maxSpeed: 20
   maxAcceleration: 90
   maxAirAcceleration: 20
   velocity: {x: 0, y: 0}
-  playerNumber: 2
 --- !u!114 &937165731143236751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,14 +129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04e7ad5ad0af184d847ce5eee815473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputs:
-  - {fileID: 11400000, guid: faa8932596a8f034bab36b850dcbbad1, type: 2}
-  - {fileID: 11400000, guid: e97c81fe53d19244ba9c20ddcf8e2096, type: 2}
+  input: {fileID: 0}
   jumpHeight: 20
   maxAirJump: 1
   downwardMovementMultiplier: 5
   upwardMovementMultiplier: 5
-  playerNumber: 2
 --- !u!114 &8257558670594197284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 0ba3b1d9034f5d54aaf268ba3e8537d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.8799996
+      value: -3.01
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 0ba3b1d9034f5d54aaf268ba3e8537d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -331,5 +325,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a61b2729a07759448a8897ebe260782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 0}
   velocidadDeMovimiento: 500
   jMovescript: {fileID: 2004582492758485083}
