@@ -15,20 +15,12 @@ public class LoadPrefab : MonoBehaviour
     public Transform player2SpawnPoint;
 
 
-    public List<InputController> inputControlers;
-
     void Start()
     {
       GameObject p1=  Instantiate(CharacterSelection.player1SelectedCharacter, player1SpawnPoint.position, player1SpawnPoint.rotation);
-        SetPlayerHealthSystem(p1, p1CanvasBar);
-        SetPlayerControls(p1, inputControlers[0]);
-
-
+        SetPlayerHealthSystem(p1, p1CanvasBar); 
       GameObject p2=  Instantiate(CharacterSelection.player2SelectedCharacter, player2SpawnPoint.position, player2SpawnPoint.rotation);
         SetPlayerHealthSystem(p2, p2CanvasBar);
-        SetPlayerControls(p2, inputControlers[1]);
-
-     
     }
 
     void SetPlayerHealthSystem(GameObject player,Slider healthBar)
@@ -42,14 +34,6 @@ public class LoadPrefab : MonoBehaviour
         p2H.InitHealthBar();
 
     }
-
-    void SetPlayerControls(GameObject player, InputController controller) {
-        player.GetComponent<JMove>().input = controller;
-        player.GetComponent<Jump>().input = controller;
-        player.GetComponentInChildren<Animation>(false).input = controller;
-      //  player.GetComponent<Attack>().input = controller;
-    }
-
     // Update is called once per frame
     void Update()
     {

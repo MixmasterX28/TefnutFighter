@@ -53,7 +53,6 @@ public class CharacterSelectController : MonoBehaviour
         // Confirm selection with Enter
         if (Input.GetKeyDown(KeyCode.Return))
         {
-
             ConfirmSelection();
         }
     }
@@ -76,11 +75,7 @@ public class CharacterSelectController : MonoBehaviour
     void ConfirmSelection()
     {
         CharacterSelection.player1SelectedCharacter = characters[player1SelectedIndex];
-  
-
-
         CharacterSelection.player2SelectedCharacter = characters[player2SelectedIndex];
-     
         SceneManager.LoadSceneAsync(2);
     }
 }

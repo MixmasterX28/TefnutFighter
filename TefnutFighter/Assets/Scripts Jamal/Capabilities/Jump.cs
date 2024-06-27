@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-    public InputController input = null;
+    [SerializeField] private InputControler input = null;
     [SerializeField, Range(0f, 50f)] private float jumpHeight = 4f;
     [SerializeField, Range(0, 5)] private int maxAirJump = 1;
     [SerializeField, Range(0f, 5f)] private float downwardMovementMultiplier = 3f;
@@ -22,25 +22,15 @@ public class Jump : MonoBehaviour
 
     void Awake()
     {
-
-
-
         body = GetComponent<Rigidbody2D>();
         ground = GetComponent<Ground>();
 
         defaultGravityScale = 1f;
     }
-    private void Start()
-    {
 
-
-    }
     void Update()
     {
-
-       
-       if(input!=null)desiredJump |= input.RetrieveJumpInput();
-        
+        desiredJump |= input.RetrieveJumpInput();
     }
 
     private void FixedUpdate()
