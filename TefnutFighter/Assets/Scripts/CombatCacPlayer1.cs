@@ -45,7 +45,7 @@ public class CombatCac : MonoBehaviour
         {
             if (colisionador.CompareTag("Player2"))
             {
-                colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage); // Asegúrate de que tus jugadores tengan el componente PlayerHealth
+                colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage);
             }
         }
     }
@@ -59,7 +59,7 @@ public class CombatCac : MonoBehaviour
         {
             if (colisionador.CompareTag("Player2"))
             {
-                colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage); // Asegúrate de que tus jugadores tengan el componente PlayerHealth
+                colisionador.transform.GetComponent<PlayerHealth>().TakeDamage(punchDamage);
             }
         }
     }
