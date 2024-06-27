@@ -308,7 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controladorGolpe: {fileID: 7434658032720896267}
   radioGolpe: 1
-  punchDamage: 15
+  punchDamage: 10
   TimePunch: 1
   TimeNextPunch: 0
   punchKey: 101
