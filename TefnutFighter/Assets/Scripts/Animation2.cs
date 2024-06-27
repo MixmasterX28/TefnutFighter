@@ -6,10 +6,10 @@ public class Animation2 : MonoBehaviour
 {
     [SerializeField] private float velocidadDeMovimiento;
     private Animator animator;
-    private float movimientoHorizontal = 0f;    
+    private float movimientoHorizontal = 0f;
 
     public JMove jMovescript;
-        
+
     // Start is called before the first frame update
     void Start()
     {

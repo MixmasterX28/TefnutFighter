@@ -25,7 +25,7 @@ public class Animation : MonoBehaviour
         float velocityX = jMovescript.velocity.x;
 
       
-       
+        movimientoVertical = Input.GetAxis("Vertical2") * velocidadDeMovimiento;
         animator.SetFloat("Horizontal", Mathf.Abs(velocityX));
 
         //animator.speed = Mathf.Abs(velocityX);
@@ -34,7 +34,6 @@ public class Animation : MonoBehaviour
             Debug.Log("walking");
            
         }
-        if (!animator.GetCurrentAnimatorStateInfo(0).Equals("jump"))
         {
             animator.speed = 1;
             animator.SetFloat("jump", Mathf.Abs(movimientoVertical));
