@@ -112,11 +112,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98d43f75caf8b3747be3a84a9f53c6ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: af42b5a1c33786f4b9b4ad81426743dd, type: 2}
+  inputs:
+  - {fileID: 11400000, guid: faa8932596a8f034bab36b850dcbbad1, type: 2}
+  - {fileID: 11400000, guid: e97c81fe53d19244ba9c20ddcf8e2096, type: 2}
   maxSpeed: 20
   maxAcceleration: 90
   maxAirAcceleration: 20
   velocity: {x: 0, y: 0}
+  playerNumber: 2
 --- !u!114 &937165731143236751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,11 +132,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b04e7ad5ad0af184d847ce5eee815473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: af42b5a1c33786f4b9b4ad81426743dd, type: 2}
+  inputs:
+  - {fileID: 11400000, guid: faa8932596a8f034bab36b850dcbbad1, type: 2}
+  - {fileID: 11400000, guid: e97c81fe53d19244ba9c20ddcf8e2096, type: 2}
   jumpHeight: 20
   maxAirJump: 1
   downwardMovementMultiplier: 5
   upwardMovementMultiplier: 5
+  playerNumber: 2
 --- !u!114 &8257558670594197284
 MonoBehaviour:
   m_ObjectHideFlags: 0

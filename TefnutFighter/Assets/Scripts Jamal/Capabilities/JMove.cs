@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class JMove : MonoBehaviour
 {
-    [SerializeField] private InputControler input = null;
+    public InputController input = null;
     [SerializeField, Range(0f, 100f)] private float maxSpeed = 4f;
     [SerializeField, Range(0f, 100f)] private float maxAcceleration = 35f;
     [SerializeField, Range(0f, 100f)] private float maxAirAcceleration = 20f;
@@ -20,15 +20,25 @@ public class JMove : MonoBehaviour
     private bool onGround;
     private bool facingRight = true;
 
+    
+
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         ground = GetComponent<Ground>();
     }
-
+    private void Start()
+    {
+       
+    }
     void Update()
     {
-        direction.x = input.RetrieveMoveInput();
+
+
+
+        if(input != null)direction.x = input.RetrieveMoveInput();
+       
+        
         desiredVelocity = new Vector2(direction.x, 0f) * Mathf.Max(maxSpeed - ground.Getfriction(), 0);
 
         if (direction.x > 0 && !facingRight)
